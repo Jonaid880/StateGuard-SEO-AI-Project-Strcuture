@@ -1,0 +1,16 @@
+{
+  "name": "stateguard-seo-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-powered SEO automation suite — content generation, analytics dashboard, and SEO agents.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace apps/web",
+    "build": "npm run build --workspace apps/web",
+    "lint": "npm run lint --workspace apps/web"
+  },
+  "license": "MIT"
+}
